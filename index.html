@@ -57,12 +57,124 @@
                         >
                     </li>
                 </ul>
+                <button
+                    type="button"
+                    class="header-mobile-menu-open js-open-menu"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                >
+                    <svg
+                        class="header-mobile-menu-open-icon"
+                        width="32"
+                        height="22"
+                    >
+                        <use
+                            href="./images/icons.svg#icon-menu-hamburger"
+                        ></use>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="header-mobile-menu js-menu-container">
+                <button
+                    type="button"
+                    class="header-mobile-menu-close-button js-close-menu"
+                >
+                    <svg
+                        class="header-mobile-menu-close-button-icon"
+                        width="8"
+                        height="8"
+                    >
+                        <use href="./images/icons.svg#modal-close-btn"></use>
+                    </svg>
+                </button>
+                <ul class="header-mobile-menu-list">
+                    <li class="header-mobile-menu-list-item list">
+                        <a href="" class="header-mobile-menu-list-link link"
+                            >Studio</a
+                        >
+                    </li>
+                    <li class="header-mobile-menu-list-item list">
+                        <a href="" class="header-mobile-menu-list-link link"
+                            >Portfolio</a
+                        >
+                    </li>
+                    <li class="header-mobile-menu-list-item list">
+                        <a
+                            href=""
+                            class="header-mobile-menu-list-link color link"
+                            >Contacts</a
+                        >
+                    </li>
+                </ul>
+                <ul class="header-mobile-menu-contacts-list">
+                    <li class="header-mobile-menu-contacts-list-item list">
+                        <a
+                            href="tel:+110001111111"
+                            class="header-mobile-menu-contacts-list-link-color link"
+                            >+11 (000) 111-11-11</a
+                        >
+                    </li>
+                    <li class="header-mobile-menu-contacts-list-item list">
+                        <a
+                            href="mailto:info@devstudio.com"
+                            class="header-mobile-menu-contacts-list-link link"
+                            >info@devstudio.com</a
+                        >
+                    </li>
+                </ul>
+                <ul class="mobile-menu-icons-list list">
+                    <li class="mobile-menu-icons-list-item">
+                        <a href="" class="mobile-menu-icons-list-link">
+                            <svg
+                                class="mobile-menu-icons"
+                                width="24"
+                                height="24"
+                            >
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-menu-icons-list-item">
+                        <a href="" class="mobile-menu-icons-list-link">
+                            <svg
+                                class="mobile-menu-icons"
+                                width="24"
+                                height="24"
+                            >
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-menu-icons-list-item">
+                        <a href="" class="mobile-menu-icons-list-link">
+                            <svg
+                                class="mobile-menu-icons"
+                                width="24"
+                                height="24"
+                            >
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-menu-icons-list-item">
+                        <a href="" class="mobile-menu-icons-list-link">
+                            <svg
+                                class="mobile-menu-icons"
+                                width="24"
+                                height="24"
+                            >
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </header>
         <!-- MAIN -->
         <main>
             <!-- HERO -->
-            <!-- <section class="hero">
+            <section class="hero">
                 <div class="container">
                     <h1 class="hero-title">
                         Effective Solutions for Your Business
@@ -71,39 +183,47 @@
                         Order Service
                     </button>
                 </div>
-            </section> -->
+            </section>
             <!-- FEATURES -->
-            <!-- <section class="features section">
+            <section class="features section">
                 <div class="container">
                     <h2 class="section-title" hidden>Lorem Ipsum</h2>
                     <ul class="features-list list">
                         <li class="features-list-item antenna">
-                            <h3 class="features-list-title">Strategy</h3>
-                            <p class="section-description">
+                            <h3 class="features-list-title section-title">
+                                Strategy
+                            </h3>
+                            <p class="features-description">
                                 Our goal is to identify the business problem to
                                 walk away with the perfect and creative
                                 solution.
                             </p>
                         </li>
                         <li class="features-list-item clock">
-                            <h3 class="features-list-title">Punctuality</h3>
-                            <p class="section-description">
+                            <h3 class="features-list-title section-title">
+                                Punctuality
+                            </h3>
+                            <p class="features-description">
                                 Bring the key message to the brand's audience
                                 for the best price within the shortest possible
                                 time.
                             </p>
                         </li>
                         <li class="features-list-item diagrama">
-                            <h3 class="features-list-title">Diligence</h3>
-                            <p class="section-description">
+                            <h3 class="features-list-title section-title">
+                                Diligence
+                            </h3>
+                            <p class="features-description">
                                 Research and confirm brands that present the
                                 strongest digital growth opportunities and
                                 minimize risk.
                             </p>
                         </li>
                         <li class="features-list-item astronaut">
-                            <h3 class="features-list-title">Technologies</h3>
-                            <p class="section-description">
+                            <h3 class="features-list-title section-title">
+                                Technologies
+                            </h3>
+                            <p class="features-description">
                                 Design practice focused on digital experiences.
                                 We bring forth a deep passion for
                                 problem-solving.
@@ -111,15 +231,18 @@
                         </li>
                     </ul>
                 </div>
-            </section> -->
+            </section>
             <!-- WHAT ARE WE DOING -->
-            <!-- <section class="cases section">
+            <section class="cases section">
                 <div class="container">
-                    <h2 class="section-title">What are we doing</h2>
+                    <h2 class="cases-title section-title">What are we doing</h2>
                     <ul class="cases-list list">
                         <li class="cases-list-item">
                             <img
                                 class="cases-ph"
+                                srcset="
+                                    ./images/what-are-we-doing/cases-1_desk@2x.jpg 2x
+                                "
                                 src="images/what-are-we-doing/img-1.jpg"
                                 alt="Photo-1"
                                 width="360"
@@ -129,6 +252,9 @@
                         <li class="cases-list-item">
                             <img
                                 class="cases-ph"
+                                srcset="
+                                    ./images/what-are-we-doing/cases-2_desk@2x.jpg 2x
+                                "
                                 src="images/what-are-we-doing/img-2.jpg"
                                 alt="Photo-2"
                                 width="360"
@@ -138,6 +264,9 @@
                         <li class="cases-list-item">
                             <img
                                 class="cases-ph"
+                                srcset="
+                                    ./images/what-are-we-doing/cases_desk-3@2x.jpg 2x
+                                "
                                 src="images/what-are-we-doing/img-3.jpg"
                                 alt="Photo-3"
                                 width="360"
@@ -146,15 +275,16 @@
                         </li>
                     </ul>
                 </div>
-            </section> -->
+            </section>
             <!-- OUR TEAM -->
-            <!-- <section class="team section">
+            <section class="team section">
                 <div class="container">
-                    <h2 class="section-title">Our Team</h2>
+                    <h2 class="team-title section-title">Our Team</h2>
                     <ul class="team-list list">
                         <li class="team-list-item">
                             <img
                                 class="team-ph"
+                                srcset="./images/team/img_desk@2x-3.jpg 2x"
                                 src="images/team/team-1.jpg"
                                 alt="Photo of Mark Guerrero"
                                 width="264"
@@ -224,6 +354,7 @@
                         <li class="team-list-item">
                             <img
                                 class="team-ph"
+                                srcset="./images/team/img_desk@2x-2.jpg 2x"
                                 src="images/team/team-2.jpg"
                                 alt="Photo of Tom Ford"
                                 width="264"
@@ -293,6 +424,7 @@
                         <li class="team-list-item">
                             <img
                                 class="team-ph"
+                                srcset="./images/team/img_desk@2x-1.jpg 2x"
                                 src="images/team/team-3.jpg"
                                 alt="Photo of Camila Garcia"
                                 width="264"
@@ -360,6 +492,7 @@
                         <li class="team-list-item">
                             <img
                                 class="team-ph"
+                                srcset="./images/team/img_desk@2x.jpg 2x"
                                 src="images/team/team-4.jpg"
                                 alt="Photo of Daniel Wilson"
                                 width="264"
@@ -426,9 +559,9 @@
                         </li>
                     </ul>
                 </div>
-            </section> -->
+            </section>
             <!-- CUSTOMERS -->
-            <!-- <section class="customers section">
+            <section class="customers section">
                 <div class="container">
                     <h2 class="customers-title">Customers</h2>
                     <ul class="customers-list list">
@@ -500,15 +633,20 @@
                         </li>
                     </ul>
                 </div>
-            </section> -->
+            </section>
         </main>
         <!-- FOOTER -->
-        <!-- <footer class="page-footer">
+        <footer class="page-footer">
             <div class="footer-wrapper container">
                 <div class="footer-left">
-                    <a class="logo-web-footer link" href="./index.html"
-                        >WEB<span class="logo-studio-footer">STUDIO</span></a
-                    >
+                    <div class="footer-logo">
+                        <a class="logo-web-footer link" href="./index.html"
+                            >WEB<span class="logo-studio-footer"
+                                >STUDIO</span
+                            ></a
+                        >
+                    </div>
+
                     <p class="footer-left-text">
                         Increase the flow of customers and sales for your
                         business with digital marketing & growth solutions.
@@ -593,9 +731,9 @@
                     </form>
                 </div>
             </div>
-        </footer> -->
+        </footer>
         <!-- MODAL -->
-        <!-- <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button
                     class="modal-close-button"
@@ -683,9 +821,10 @@
                     </button>
                 </form>
             </div>
-        </div> -->
+        </div>
 
         <!-- SCRIPT -->
-        <!-- <script src="./js/modal.js"></script> -->
+        <script src="./js/mobile-menu.js"></script>
+        <script src="./js/modal.js"></script>
     </body>
 </html>
